@@ -1,0 +1,15 @@
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static void main (String[] args) {
+                       Scanner sc = new Scanner(System.in);
+              int principal = sc.nextInt();
+              int rate = sc.nextInt();
+              int time = sc.nextInt();
+              double cp = principal * Math.pow((double)(1.0 + rate / 100.0), time);
+              System.out.printf("%.2f", cp - principal);
+	}
+}
