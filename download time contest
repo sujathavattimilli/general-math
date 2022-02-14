@@ -1,0 +1,19 @@
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static void main (String[] args) {
+                       Scanner sc=new Scanner(System.in);
+		
+		int f_s;
+		f_s = sc.nextInt();
+		 
+		int d_s;
+		d_s = sc.nextInt();
+		
+	    int t = (f_s*8)/d_s;
+		System.out.println(t);
+	}
+}
